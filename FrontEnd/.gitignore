@@ -1,0 +1,42 @@
+# Ignore vendor directory
+/vendor
+
+# Ignore node_modules directory
+/node_modules
+
+# Ignore build artifacts
+/public/build
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore IDE and editor files
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Ignore logs and cache files
+/storage/*.log
+/bootstrap/cache/*.php
+
+# Ignore compiled assets
+/public/css/*.css
+/public/js/*.js
+
+# Ignore compiled views
+/resources/views/**/*.php
+
+# Ignore user-specific files
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Ignore database files
+/database/*.sqlite
+
+# Ignore testing files
+/phpunit.xml
+/tests
