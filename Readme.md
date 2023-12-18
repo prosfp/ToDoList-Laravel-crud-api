@@ -14,8 +14,6 @@ Per dur a terme aques projecte s'ha fet servir el següent recurs:
 
 #### :bulb: Requisits
 
-- PHP instal·lat (v. 8+)
-- Composer instal·lat
 - Docker instal·lat
 - Opcional: [Postman](https://www.postman.com/) per fer les peticions a la API
 - Laravel cli.
