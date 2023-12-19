@@ -21,9 +21,7 @@ Per dur a terme aques projecte s'ha fet servir el següent recurs:
 
 #### :rocket: Instruccions
 
-T'aconsello que facis servir Docker per a la instal·lació del backend. Així, només has de clonar el repositori i executar la comanda `docker-compose up -d` per a que es creïn els contenidors necessaris.
-
-Un cop tinguis configurada la base de dades, hauras de migrar les taules des del contenidor de Laravel. Per a això, executa la comanda `docker exec -it laravel-app php artisan migrate`.
+T'aconsello que facis servir Docker per a la instal·lació del backend i evitar problemes. Existeix un `Dockerfile` de manera que només hagis de clonar el repositori i executar la comanda `docker-compose up -d` per a que Docker Composer faci el build automàticament carregant totes les dependències necessàries.
 
 Si tot ha anat bé, ja pots accedir a la API a través de la ruta `http://localhost:8080/api/tasks`. Prova-ho amb Postman o amb el client de PostgreSQL.
 
@@ -40,4 +38,4 @@ Fes servir la referència d'abans per entendre cadascun dels passos que s'han se
 
 Per a la instal·lació del frontend, has de clonar el repositori i executar la comanda `npm install` per a instal·lar les dependències.
 
-Un cop fet això, ja pots executar la comanda `npm run dev` per a iniciar el servidor de desenvolupament. `Vite` s'encarregarà de compilar el codi i de refrescar el navegador cada cop que es detecti un canvi. També et facilitarà la ruta per a accedir a l'aplicació.. 
+Un cop fet això, ja pots executar la comanda `npm run dev` per a iniciar el servidor de desenvolupament. `Vite` s'encarregarà de compilar el codi i de refrescar el navegador cada cop que es detecti un canvi. També et facilitarà la ruta per a accedir a l'aplicació..
